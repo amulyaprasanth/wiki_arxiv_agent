@@ -1,0 +1,14 @@
+services:
+  ollama-container:
+    image: ollama/ollama
+    volumes:
+    - ./data/ollama:/root/.ollama
+    - ./entrypoint.sh:/entrypoint.sh
+    ports:
+    - 11434:11434
+    entrypoint: ["/usr/bin/bash", "/entrypoint.sh"]
+
+  streamlit-app:
+    image:  amulyaprasanth/wisdom_retriever:v0
+    ports:
+      - 8001:8001
