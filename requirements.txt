@@ -1,0 +1,12 @@
+streamlit
+langchain-community
+langchain
+langchain-ollama
+PyPDF2
+langchain_text_splitters
+Wikipedia
+arxiv
+pytest
+uvicorn
+langchain_chroma
+faiss-cpu
