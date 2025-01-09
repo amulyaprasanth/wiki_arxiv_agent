@@ -71,7 +71,7 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-llm = ChatOllama(model="phi", temperature=0.5)
+llm = ChatOllama(model="phi")
 
 def create_and_invoke_chain(input: str, vector_store: Chroma) -> Any:
     """Create and invoke a processing chain using a language model and a vector store.
