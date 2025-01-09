@@ -1,0 +1,12 @@
+streamlit
+langchain-community
+langchain
+langchain-ollama
+pypdf
+langchain_text_splitters
+Wikipedia
+arxiv
+pytest
+uvicorn
+jupyter
+faiss-gpu

@@ -2,10 +2,10 @@ streamlit
 langchain-community
 langchain
 langchain-ollama
-pypdf
+PyPDF2
 langchain_text_splitters
 Wikipedia
 arxiv
 pytest
 uvicorn
-jupyter
+langchain_chroma
